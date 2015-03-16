@@ -21,7 +21,7 @@ public class ReadXML {
 		}
 	}
 	
-	private List<HierarchicalConfiguration> getHierarchicalConfiguration(String fileName, String rootName) {
+	public List<HierarchicalConfiguration> getHierarchicalConfiguration(String fileName, String rootName) {
 		List<HierarchicalConfiguration> hierarchicalConfigurations = null;
 		try {
 			XMLConfiguration config = new XMLConfiguration(fileName);
