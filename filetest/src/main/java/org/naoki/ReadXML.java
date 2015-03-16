@@ -33,4 +33,13 @@ public class ReadXML {
 		}	
 		return hierarchicalConfigurations;
 	}
+	
+	public boolean validateInput(int input) {
+		boolean result = true;
+		if(input < 0) {
+			result = false;
+		}
+		
+		return result;
+	}
 }
