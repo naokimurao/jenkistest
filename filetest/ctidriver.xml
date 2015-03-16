@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site>
+		<name>Lab 123</name>
+		<type>Cisco</type>
+		<jtapiaddress>192.168.12.117</jtapiaddress>
+		<jtapiuser>jtapiUser</jtapiuser>
+		<jtapipassword>1234</jtapipassword>
+	</site>
+</sites>
