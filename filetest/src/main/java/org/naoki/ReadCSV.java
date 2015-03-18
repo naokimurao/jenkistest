@@ -22,7 +22,7 @@ public class ReadCSV {
 			String filePath = new File("").getAbsolutePath();
 			System.out.println(filePath);
 			File csvFile = new File(filePath + "//UserInfoTable.csv");
-			System.out.println(csvFile.exists());
+			//System.out.println(csvFile.exists());
 			InputStream in = new FileInputStream(filePath + "//UserInfoTable.csv");
 		
 			CSVReader reader;
